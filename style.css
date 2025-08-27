@@ -1,0 +1,42 @@
+body {
+font-family: 'Arial', sans-serif;
+background-color: #f9f5f0;
+color: #444;
+text-align: center;
+margin: 0;
+padding: 20px;
+}
+
+h1 {
+color: #6d597a;
+margin-bottom: 20px;
+}
+
+.game-board {
+width: 460px;
+margin: 0 auto;
+font-size: 0; 
+}
+
+.card {
+width: 100px;
+height: 100px;
+background-color: #d8e2dc;
+border-radius: 12px;
+text-align: center;
+line-height: 100px;
+font-size: 24px;
+color: #444;
+display: inline-block;
+margin: 7px;
+}
+
+.card.flipped {
+background-color: #f4acb7;
+color: white;
+}
+
+.card.matched {
+background-color: #9d8189;
+color: white;
+}
